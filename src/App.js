@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './components/Header';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import resumeData from './resumeData';
 function App() {
   return (
     <div className="App">
-      <h4>hello</h4>
+     <Header resumeData={ resumeData} />
     </div>
   );
 }
