@@ -9,17 +9,17 @@ const resumeData = {
         {
             "name":"linkedin",
             "url":"https://www.linkedin.com/in/nayemul-hasan-48159414b/",
-            "className":"fa fa-linkedin"
+            "imgLink":"https://i.postimg.cc/FHCVdj6q/linkedin-191-739516.png"
         },
         {
             "name":"github",
             "url":"https://github.com/NayemulSCode",
-            "className":"fa fa-github"
+            "imgLink":"https://i.postimg.cc/KYn79djX/download.png"
         },
         {
             "name":"facebook",
             "url":"https://www.facebook.com/nayemulhasan.shahab/",
-            "className":"fa fa-facebook"
+            "imgLink":"https://i.postimg.cc/c1VHH6Tm/logo-facebook-512.png"
         }
         ],
     "aboutme":"I am currently a pre-final year student at The National University and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
