@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 const Header = (props) => {
     const resumeData = props.resumeData;
-    const {linkedIn} = props. resumeData.socialLinks;
     return (
         <div>
             <header>

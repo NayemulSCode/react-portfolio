@@ -1,0 +1,43 @@
+#about{
+    background: gray;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+#about h3{
+    font:20px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 15px;
+}
+#about p{
+    line-height: 30px;
+    color: #ddd9d9;
+}
+#about .profile__pic{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+#about .main-col{
+    padding-right: 5%;
+    align-items: left;
+    text-align: left;
+}
+/* media queries */
+@media only screen and  (max-width: 900px){
+    #about.profile__pic{
+        width: 120px;
+        height: 120px;
+        margin-left: 12px;
+    }
+    #about{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media only screen and  (max-width: 767px){
+    #about .main-col{
+       text-align: center;
+       padding: 30px;
+    }
+}
