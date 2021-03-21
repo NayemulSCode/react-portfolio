@@ -33,7 +33,7 @@ const resumeData = {
         "specialization":"CSE",
         "MonthOfPassing":"Feb",
         "YearOfPassing":"2021",
-        "Achievements":"BSc",
+        "Achievements":"BSc Honours",
         "Cgpa":"3.10"
         },
         {
@@ -52,16 +52,9 @@ const resumeData = {
         "MonthOfLeaving":"Mar",
         "YearOfLeaving":"2020",
         "Achievements":"Dev. Skills"
-        },
-        {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
         }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Top Skills",
     "skills":[
         {
         "skillname":"HTML5"
@@ -70,14 +63,28 @@ const resumeData = {
         "skillname":"CSS"
         },
         {
+        "skillname":"Boostrap"
+        },
+        {
         "skillname":"Reactjs"
+        },
+        {
+        "skillname":"Jquery"
+         },
+         {
+        "skillname":"Nodejs"
+        },
+        {
+        "skillname":"Materialui"
         }
+        
+
     ],
     "portfolio":[
         {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Html css javascript working project",
+        "description":"e-commerce web site",
+        "imgurl":"https://i.postimg.cc/Y0bCHfWB/work1.png"
         },
         {
         "name":"project2",
