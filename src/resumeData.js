@@ -84,22 +84,26 @@ const resumeData = {
         {
         "name":"Html css javascript working project",
         "description":"e-commerce web site",
-        "imgurl":"https://i.postimg.cc/Y0bCHfWB/work1.png"
+        "imgurl":"https://i.postimg.cc/Y0bCHfWB/work1.png",
+        "url":"https://nayemulscode.github.io/HtmlCssResposiveDesign/"
         },
         {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"React Sports App",
+        "description":"an api based react app",
+        "imgurl":"https://i.postimg.cc/gjXLNT7B/work2.png",
+        "url":"https://dreamy-hermann-b05a80.netlify.app/"
         },
         {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"React Authentication",
+        "description":"private routing with google authentication app",  
+        "imgurl":"https://i.postimg.cc/hPxnWQX5/work4.png",
+        "url":"https://go-rider-61f18.web.app/"
         },
         {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+            "name":"React Cart",
+            "description":"simple cart app",  
+            "imgurl":"https://i.postimg.cc/YCpQQM7d/work3.png",
+            "url":"https://epic-ride-ff7320.netlify.app/"
         }
     ],
     "testimonials":[

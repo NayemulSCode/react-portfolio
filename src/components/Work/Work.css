@@ -1,0 +1,99 @@
+#work{
+    background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+#work h1{
+    font: 15px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #95A3A3;
+}
+#work .work-col{ 
+    margin-bottom: 36px;
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+
+}
+.work-item .item-wrapper{
+    background: #fff;
+   overflow: hidden;
+   position: relative;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+  
+}
+.work-item .item-wrapper a{
+    display: block;
+    cursor: pointer;
+}
+.work-item .item-wrapper .overlay{
+    position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   color: #fff;
+   padding: 20px 10px;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+    -webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+    background: url(../../images/overlay-bg.png) repeat;
+}
+.work-item .item-wrapper img{
+   vertical-align: bottom;
+   /* width: 25%; */
+   max-width: 100%;
+}
+.work-item .item-wrapper.work-item-meta{
+    padding: 18px 
+}
+.work-item .item-wrapper.work-item-meta h5{
+    font: 14px/21px 'opensans-bold', sans-serif;
+   color: #fff;
+}
+.work-item .item-wrapper.work-item-meta p{
+    font: 12px/18px 'opensans-light', sans-serif;
+    color: #c6c7c7;
+    margin-bottom: 0;
+}
+.work-item:hover .overlay{
+    opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=100);
+    color: #fff;
+    padding: 20px 10px;
+
+}
+.bgrid-quarters{
+    /* width: 25%; */
+    display:flex;
+}
+@media (max-width:765px){
+    #work .work-col{ 
+        margin-bottom: 36px;
+        position: relative;
+        padding: 0 20px;
+        min-height: 1px;
+        float: left;
+    
+    }
+    .bgrid-quarters{
+        width: 100%;
+        display:block;
+    }
+    #work h1{
+        padding: 0 20px;
+    }
+}
