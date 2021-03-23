@@ -33,7 +33,7 @@ const resumeData = {
         "specialization":"CSE",
         "MonthOfPassing":"Feb",
         "YearOfPassing":"2021",
-        "Achievements":"BSc",
+        "Achievements":"BSc Honours",
         "Cgpa":"3.10"
         },
         {
@@ -52,16 +52,9 @@ const resumeData = {
         "MonthOfLeaving":"Mar",
         "YearOfLeaving":"2020",
         "Achievements":"Dev. Skills"
-        },
-        {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
         }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Top Skills",
     "skills":[
         {
         "skillname":"HTML5"
@@ -70,29 +63,47 @@ const resumeData = {
         "skillname":"CSS"
         },
         {
+        "skillname":"Boostrap"
+        },
+        {
         "skillname":"Reactjs"
+        },
+        {
+        "skillname":"Jquery"
+         },
+         {
+        "skillname":"Nodejs"
+        },
+        {
+        "skillname":"Materialui"
         }
+        
+
     ],
     "portfolio":[
         {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Html css javascript working project",
+        "description":"e-commerce web site",
+        "imgurl":"https://i.postimg.cc/Y0bCHfWB/work1.png",
+        "url":"https://nayemulscode.github.io/HtmlCssResposiveDesign/"
         },
         {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"React Sports App",
+        "description":"an api based react app",
+        "imgurl":"https://i.postimg.cc/gjXLNT7B/work2.png",
+        "url":"https://dreamy-hermann-b05a80.netlify.app/"
         },
         {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"React Authentication",
+        "description":"private routing with google authentication app",  
+        "imgurl":"https://i.postimg.cc/hPxnWQX5/work4.png",
+        "url":"https://go-rider-61f18.web.app/"
         },
         {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+            "name":"React Cart",
+            "description":"simple cart app",  
+            "imgurl":"https://i.postimg.cc/YCpQQM7d/work3.png",
+            "url":"https://epic-ride-ff7320.netlify.app/"
         }
     ],
     "testimonials":[
