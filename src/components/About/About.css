@@ -23,6 +23,10 @@
     align-items: left;
     text-align: left;
 }
+#about a{
+    text-decoration: none;
+    color: white;
+}
 /* media queries */
 @media only screen and  (max-width: 900px){
     #about.profile__pic{
