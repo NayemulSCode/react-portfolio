@@ -24,7 +24,7 @@ const resumeData = {
             "imgLink":"https://i.postimg.cc/c1VHH6Tm/logo-facebook-512.png"
         }
         ],
-    "aboutme":"I am currently a pre-final year student at The National University and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am currently learner of frontend web development. I am a self taught Full Stack Web Developer, currently deep practices on React.Js . I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"Dhaka,Bangladesh",
     "website":"https://github.com/NayemulSCode",
     "education":[
@@ -34,7 +34,7 @@ const resumeData = {
         "MonthOfPassing":"Feb",
         "YearOfPassing":"2021",
         "Achievements":"BSc Honours",
-        "Cgpa":"3.10"
+        "Cgpa":"3.15"
         },
         {
         "UniversityName":"M A Reza College",
@@ -57,53 +57,81 @@ const resumeData = {
     "skillsDescription":"Top Skills",
     "skills":[
         {
+        "skillname":"Reactjs"
+        },
+        {
+        "skillname":"Boostrap"
+        },
+        {
+        "skillname":"Materialui"
+        },
+        {
+        "skillname":"Jquery"
+         },
+        {
         "skillname":"HTML5"
         },
         {
         "skillname":"CSS"
         },
         {
-        "skillname":"Boostrap"
-        },
-        {
-        "skillname":"Reactjs"
-        },
-        {
-        "skillname":"Jquery"
-         },
-         {
         "skillname":"Nodejs"
         },
         {
-        "skillname":"Materialui"
+        "skillname":"Expressjs"
         }
         
 
     ],
     "portfolio":[
         {
+            "name":"Home Relocation",
+            "description":"Technologies: Reactjs, Material-Ui, React boostrap, Nodejs, Expressjs, firebase auth, heroku",
+            "subtitle":"Housing Moving Service Website(MERN Stack)",  
+            "imgurl":"https://i.postimg.cc/Y9Sxcnck/home-reloaction.png",
+            "url":"https://home-reloaction.web.app/",
+            "gitLink":"https://github.com/NayemulSCode/Home-Relocation-Client_"
+        },
+        {
         "name":"Html css javascript working project",
-        "description":"e-commerce web site",
-        "imgurl":"https://i.postimg.cc/Y0bCHfWB/work1.png",
-        "url":"https://nayemulscode.github.io/HtmlCssResposiveDesign/"
+        "description":"Technologies: Reactjs, React boostrap, Nodejs, Expressjs, firebase auth, heroku",
+        "subtitle":"E-commerce web site(MERN Stack)",
+        "imgurl":"https://i.postimg.cc/d0h847Gt/ecommerce.png",
+        "url":"https://cloud-bazar-5cc33.web.app/",
+        "gitLink":"https://github.com/NayemulSCode/cloud-bazar-client"
         },
         {
         "name":"React Sports App",
-        "description":"an api based react app",
+        "description":"Technologies: Reactjs, React boostrap, firebase auth, netlify",
+        "subtitle":"Laliga teams (TheSportsDB.com) API based",
         "imgurl":"https://i.postimg.cc/gjXLNT7B/work2.png",
-        "url":"https://dreamy-hermann-b05a80.netlify.app/"
+        "url":"https://dreamy-hermann-b05a80.netlify.app/",
+        "gitLink":"https://github.com/NayemulSCode/team-makaer-react-ass-8"
         },
         {
-        "name":"React Authentication",
+            "name":"Netflix Clone",
+            "description":"Technologies: Reactjs, Material-UI, firebase hosting",
+            "subtitle":"Entertainment web site",
+            "imgurl":"https://i.postimg.cc/852QjrmF/netfilx.png",
+            "url":"https://netflix-clone-29f35.web.app/",
+            "gitLink":"https://github.com/NayemulSCode/netflixClone"
+            },
+        {
+        "name":"Share a Ride",
+        "subtitle":"Sample ride Sharing App",
         "description":"private routing with google authentication app",  
         "imgurl":"https://i.postimg.cc/hPxnWQX5/work4.png",
-        "url":"https://go-rider-61f18.web.app/"
+        "url":"https://go-rider-61f18.web.app/",
+        "gitLink":""
+
         },
         {
-            "name":"React Cart",
-            "description":"simple cart app",  
+            "name":"Make a Team",
+            "description":"Technologies: Reactjs, Boostrap,Font-awsome",
+            "subtitle":"Adding 11 Players for your team!",  
             "imgurl":"https://i.postimg.cc/YCpQQM7d/work3.png",
-            "url":"https://epic-ride-ff7320.netlify.app/"
+            "url":"https://epic-ride-ff7320.netlify.app/",
+            "gitLink":"https://github.com/NayemulSCode/best-team-player-by-react"
         }
     ],
     "testimonials":[

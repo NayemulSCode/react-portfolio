@@ -84,7 +84,7 @@
     -webkit-animation: html5 2s ease;
 }
  .css {
-    width: 90%;
+    width: 80%;
     -moz-animation: css 2s ease;
     -webkit-animation: css 2s ease;
 }
@@ -94,7 +94,7 @@
     -webkit-animation: jquery 2s ease;
 }
 .reactjs {
-    width: 60%;
+    width: 80%;
     -moz-animation: jquery 2s ease;
     -webkit-animation: jquery 2s ease;
 }
@@ -108,19 +108,16 @@
     -moz-animation: jquery 2s ease;
     -webkit-animation: jquery 2s ease;
 }
-.materialui{
-    width: 55%;
+.expressjs{
+    width: 45%;
     -moz-animation: jquery 2s ease;
     -webkit-animation: jquery 2s ease;
 }
-/* @-moz-keyframes css {
-    0%   { width: 0px;  }
-    100% { width: 90%;  }
-  }
-  @-moz-keyframes html5 {
-    0%   { width: 0px;  }
-    100% { width: 80%;  }
-  } */
+.materialui{
+    width: 70%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
 
 /* media query */
 @media only screen and (max-width: 900px){
