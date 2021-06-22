@@ -8,7 +8,7 @@ const Education = () => {
                 <div className="col-md-3 header-col">
                     <h1><span>Education</span></h1>
                 </div>
-                <div className="col-md-9 main-col">
+                <div className="col-md-9 main-col d-flex justify-content-around">
                     {
                         resumeData.education && resumeData.education.map((item) =>{
                             return(<div className="row item">

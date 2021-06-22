@@ -34,7 +34,7 @@ const resumeData = {
         "MonthOfPassing":"Feb",
         "YearOfPassing":"2021",
         "Achievements":"BSc Honours",
-        "Cgpa":"3.15"
+        "Cgpa":"3.15 out of 4.00"
         },
         {
         "UniversityName":"M A Reza College",
@@ -42,7 +42,7 @@ const resumeData = {
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2015",
         "Achievements":"HSC",
-        "Cgpa":"4.17"
+        "Cgpa":"4.17 out of 5.00"
         }
     ],
     "work":[
@@ -60,13 +60,16 @@ const resumeData = {
         "skillname":"Reactjs"
         },
         {
+            "skillname":"Redux"
+        },
+        {
         "skillname":"Boostrap"
         },
         {
         "skillname":"Materialui"
         },
         {
-        "skillname":"Jquery"
+        "skillname":"JavaScript"
          },
         {
         "skillname":"HTML5"
@@ -88,7 +91,7 @@ const resumeData = {
             "name":"Home Relocation",
             "description":"Technologies: Reactjs, Material-Ui, React boostrap, Nodejs, Expressjs, firebase auth, heroku",
             "subtitle":"Housing Moving Service Website(MERN Stack)",  
-            "imgurl":"https://i.postimg.cc/Y9Sxcnck/home-reloaction.png",
+            "imgurl":"https://i.postimg.cc/rsmwp28n/Screenshot-2021-05-03-Home-Relocation.png",
             "url":"https://home-reloaction.web.app/",
             "gitLink":"https://github.com/NayemulSCode/Home-Relocation-Client_"
         },
@@ -104,7 +107,7 @@ const resumeData = {
         "name":"React Sports App",
         "description":"Technologies: Reactjs, React boostrap, firebase auth, netlify",
         "subtitle":"Laliga teams (TheSportsDB.com) API based",
-        "imgurl":"https://i.postimg.cc/gjXLNT7B/work2.png",
+        "imgurl":"https://i.postimg.cc/pT0nCZrS/Screenshot-2021-05-03-React-App-1.png",
         "url":"https://dreamy-hermann-b05a80.netlify.app/",
         "gitLink":"https://github.com/NayemulSCode/team-makaer-react-ass-8"
         },
@@ -112,7 +115,7 @@ const resumeData = {
             "name":"Netflix Clone",
             "description":"Technologies: Reactjs, Material-UI, firebase hosting",
             "subtitle":"Entertainment web site",
-            "imgurl":"https://i.postimg.cc/852QjrmF/netfilx.png",
+            "imgurl":"https://i.postimg.cc/bJ0mw46t/Screenshot-2021-05-03-React-App.png",
             "url":"https://netflix-clone-29f35.web.app/",
             "gitLink":"https://github.com/NayemulSCode/netflixClone"
             },

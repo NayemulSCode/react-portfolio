@@ -4,12 +4,12 @@
    padding-bottom: 60px;
 }
 #work h1{
-    font: 15px/24px 'opensans-semibold', sans-serif;
+    font: 25px/30px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #070808;
 }
 #work .work-col{ 
 
@@ -62,7 +62,7 @@
 }
 .bgrid-quarters{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px 25px;
 }
 @media (max-width:765px){

@@ -1,21 +1,20 @@
 #about{
-    background: gray;
+
     padding-top: 80px;
-    padding-bottom: 60px;
     overflow: hidden;
 }
 #about h3{
     font:20px/30px 'opensans-bold', sans-serif;
-    color: #fff;
+    color: #000;
     margin-bottom: 15px;
 }
 #about p{
     line-height: 30px;
-    color: #ddd9d9;
+    color: #000;
 }
 #about .profile__pic{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     position: relative;
 }
 #about .main-col{

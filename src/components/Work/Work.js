@@ -19,9 +19,10 @@ const Work = () => {
                                                     <div className="work-item-meta">
                                                         <h5>{item.name}</h5>
                                                         <p>{item.subtitle}</p>
-                                                        <small>{item.description}</small><br />
-                                                        <a href={item?.url} target="_blank" style={{color:'pink'}}>Live Site Link</a><br/>
-                                                        <a href={item?.gitLink} target="_blank" style={{color:'pink'}}>Github Link</a>
+                                                        <small>{item.description}</small><br /
+                                                        >
+                                                        <button className="btn btn-info mr-2 mt-3"><a href={item?.url} target="_blank" style={{color:'white',textDecoration:'none'}}>Live Site Link</a></button>
+                                                        <button className="btn btn-primary mr-2 mt-3"><a href={item?.gitLink} target="_blank" style={{color:'white',textDecoration:'none'}}>Github Link</a></button>
                                                     </div>
                                                 </div>
                                             

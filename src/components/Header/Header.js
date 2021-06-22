@@ -2,6 +2,9 @@ import React from 'react';
 import './Header.css';
 import { Link, animateScroll} from 'react-scroll'
 import { IoIosArrowDown } from "react-icons/io";
+import { HiOutlineDownload } from "react-icons/hi";
+import Zoom from "react-reveal/Zoom";
+import Typical from 'react-typical'
 
 const Header = (props) => {
     const resumeData = props.resumeData;
@@ -59,13 +62,44 @@ const Header = (props) => {
                                 Projects
                             </Link>
                         </li>
-                        <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-                        <li><a className="smoothscroll" href="#contact">Contact</a></li>
+
+                        <li>
+                            <Link 
+                                className="smoothscroll"
+                                activeClass='active'
+                                to='contact'
+                                spy={true}
+                                smooth={true}
+                                hashSpy={true}
+                                offset={-45}
+                                duration={1000}
+                            >
+                                Contact
+                            </Link>
+                        </li>
+
+                        <button className="btn btn-info rsdownload-btn"><a href="https://drive.google.com/uc?export=download&id=1TBxuiSMHbcnugP2og5u_Sj6RbhMZGWnB"> <HiOutlineDownload style={{fontSize:'20px',fontWeight:'bold',marginRight:'5px'}} />Resume</a></button>
+                    
                     </ul>
                 </nav>
                 <div className="banner">
                     <div className="banner-text">
-                        <h1>I am {resumeData.name}</h1>
+                        <Zoom>
+                            <h1>I'm {resumeData.name}</h1>
+                        </Zoom>
+                        <h6 className="text-white" data-aos="zoom-in">
+                            I am {""}
+                            <Typical
+                                loop={Infinity}
+                                wrapper="b"
+                                steps={[
+                                    "Web Developer",
+                                    1000,
+                                    "Node & React Developer",
+                                    1000,
+                                ]}
+                            />
+                        </h6>
                         <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am {resumeData.role}.{resumeData.roleDescription}</h3>
                         <hr/>
                         <ul className="social">
@@ -82,7 +116,7 @@ const Header = (props) => {
                         </ul>
                         
                     </div>
-                    <button className="btn btn-info resumeLink"><a href="https://drive.google.com/file/d/1ECssn_70ywrjI53e_nOaKtHQNF0AhkB-/view?usp=sharing" target="_blank">My Resume</a></button>
+                    <button className="btn btn-info resumeLink"><a href="https://drive.google.com/file/d/1TBxuiSMHbcnugP2og5u_Sj6RbhMZGWnB/view?usp=sharing" target="_blank">My Resume</a></button>
                     <a
                         href="mailto:nayemulhasan2016@gmail.com"
                         target="_blank"
