@@ -2,11 +2,11 @@ const resumeData = {
     "imagebaseurl":"https://github.com/NayemulSCode/react-portfolio",
     "name": "Nayemul",
     "imgUrl":"https://i.postimg.cc/W1rmHgdd/pp.png",
-    "role": "Frontend Developer",
+    "role": "Frontend Software Developer",
     "email":"nayemulhasan2016@gmail.com",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": ` Who loves building user-friendly websites and web apps. I've been building web apps with React`,
     "socialLinks":[
         {
             "name":"linkedin",
@@ -24,7 +24,11 @@ const resumeData = {
             "imgLink":"https://i.postimg.cc/c1VHH6Tm/logo-facebook-512.png"
         }
         ],
-    "aboutme":"I am currently learner of frontend web development. I am a self taught Full Stack Web Developer, currently deep practices on React.Js . I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":
+                `My name is Nayemul and I am a software developer specialized in frontend applications. I started web development in 2019 and acquired a strong knowledge and expertise in this field over time. 
+                I live in Dhaka and currently work as a software developer at Codeware Limited. I've mostly worked professionally with
+                React.js, JavaScript, TypeScript, Node.js, Express.js GraphQL, REST API's but aslo a little bit PHP, C#. 
+                I'm now seeking a full-time role where I can contribute my skills both in coding and business to help a company achieve their goals. `,
     "address":"Dhaka,Bangladesh",
     "website":"https://github.com/NayemulSCode",
     "education":[
@@ -34,7 +38,7 @@ const resumeData = {
         "MonthOfPassing":"Feb",
         "YearOfPassing":"2021",
         "Achievements":"BSc Honours",
-        "Cgpa":"3.15"
+        "Cgpa":"3.16 out of 4.00"
         },
         {
         "UniversityName":"M A Reza College",
@@ -42,7 +46,7 @@ const resumeData = {
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2015",
         "Achievements":"HSC",
-        "Cgpa":"4.17"
+        "Cgpa":"4.17 out of 5.00"
         }
     ],
     "work":[
