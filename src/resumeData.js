@@ -89,6 +89,22 @@ const resumeData = {
     ],
     "portfolio":[
         {
+            "name": "Chuzeday Partner Web App",
+            "description": "Technologies: Reactjs, TypeScript, GraphGL, Sass, React boostrap,Google auth, Google map, Google Calendar",
+            "subtitle": "Most advanced salon service managing app as a business owner",
+            "imgurl": "https://i.postimg.cc/L8K8BkbB/chuzeday-com.jpg",
+            "url": "https://business.chuzeday.com/",
+            "gitLink": "https://github.com/CWServer21/Chuzeday-partner"
+        },
+        {
+            "name": "Chuzeday Guest Web App",
+            "description": "Technologies: Technologies: Reactjs, GraphGL, Sass, React boostrap,Firebase auth, Google map",
+            "subtitle": "Search a online salon service or shop as a guest or client",
+            "imgurl": "https://i.postimg.cc/902Y3wx6/Web-capture-4-6-2022-232824-ui-dev.jpg",
+            "url": "https://chuzeday.com/",
+            "gitLink": "https://github.com/CWServer21/Chuzeday"
+        },
+        {
             "name":"Home Relocation",
             "description":"Technologies: Reactjs, Material-Ui, React boostrap, Nodejs, Expressjs, firebase auth, heroku",
             "subtitle":"Housing Moving Service Website(MERN Stack)",  
