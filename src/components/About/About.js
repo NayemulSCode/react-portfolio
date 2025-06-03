@@ -5,14 +5,14 @@ const About = () => {
     return (
         <section id="about">
             <div className="row">
-                <div className="col-md-5">
-                    <img className="profile__pic" src={resumeData.imgUrl} alt=""/>
+                <div className="col-md-5" data-aos="fade-right">
+                    <img className="profile__pic" src={resumeData.imgUrl} alt={resumeData.name || 'Profile Picture'}/>
                 </div>
-                <div className="col-md-7 main-col">
-                    <h3>About Me</h3>
-                    <p>{resumeData.aboutme}</p>
-                    <h3>Contact Details</h3>
-                    <p className="address">
+                <div className="col-md-7 main-col" data-aos="fade-left">
+                    <h3 data-aos="fade-up">About Me</h3>
+                    <p data-aos="fade-up" data-aos-delay="100">{resumeData.aboutme}</p>
+                    <h3 data-aos="fade-up" data-aos-delay="200">Contact Details</h3>
+                    <p className="address" data-aos="fade-up" data-aos-delay="300">
                         <span>{resumeData.name}</span><br></br>
                         <span>{resumeData.address}</span><br></br>
                         <span>{resumeData.email}</span>

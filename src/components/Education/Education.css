@@ -5,7 +5,7 @@
     overflow: hidden;
 }
 #resume h1{
-    font: 18px/24px 'opensans-blod', sans-serif;
+    font: 18px/24px 'opensans-bold', sans-serif; /* Corrected typo */
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -23,6 +23,7 @@
     color: #6e8881;
     margin-bottom: 20px;
     margin-top: 10px;
+    line-height: 1.6; /* Explicitly set for better readability */
 }
 #resume .e_info span{
    margin-left: 5px;
@@ -56,15 +57,23 @@
        background: #ccc;
        height: 30px;
        border-radius: 3px;
+       transition: box-shadow 0.3s ease; /* Added for potential box-shadow hover */
+ }
+ .bars li:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
  }
  .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
+   transition: color 0.3s ease; /* Added for color transition */
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
 	top: -36px;
+}
+.bars li:hover em {
+  color: #11ABB0; /* Change text color on hover */
 }
 .bar-expand {
     position: absolute;
@@ -143,7 +152,13 @@
      }
      #resume h1 { letter-spacing: 3px; }
      #resume .main-col { padding-right: 30px; }
-        
+     #resume {
+        padding-top: 40px; /* Reduced top padding */
+        padding-bottom: 30px; /* Reduced bottom padding */
+     }
+     #resume h3{
+        font-size: 20px; /* Reduced font size for h3 */
+     }
      .bars { width: 100%; }
      .skill-desck{
          margin-left: 20px;

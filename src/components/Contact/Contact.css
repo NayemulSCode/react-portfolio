@@ -39,10 +39,19 @@
     font-size: 18px;
     font-weight: bold;
     outline: none;
-    border: none;
+    border: 1px solid #3498db; /* Adding a border for definition */
     display: inline-block;
     cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
+
+.submitBtn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    background-color: #3498db; /* Use current text color as background on hover */
+    color: #fff; /* Change text to white on hover */
+}
+
 @media only screen and (max-width: 600px) {
     .formContainer{
         grid-template-columns: repeat(1, 1fr);

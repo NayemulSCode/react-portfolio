@@ -6,15 +6,16 @@ const Work = () => {
         <section id="work">
             <div className="row">
                 <div className="work-col">
-                    <h1>Check Out Some of My Projects</h1>
+                    <h1 data-aos="fade-up">Check Out Some of My Projects</h1>
                     <div id="work-wrapper" className="bgrid-quarters container-fluid">
                         {
-                            resumeData.portfolio && resumeData.portfolio.map((item) =>{
+                            resumeData.portfolio && resumeData.portfolio.map((item, index) =>{ // Added index for stagger
                                 return(
-                                    <div className="work-item work-col shadow-sm">
+                                    // Added key to the parent div being mapped
+                                    <div key={item.name} className="work-item work-col shadow-sm" data-aos="zoom-in-up" data-aos-delay={index * 100}>
                                         <div className="item-wrapper">
                                            
-                                                <img src={item.imgurl} alt=""/>
+                                                <img src={item.imgurl} alt={item.name || 'Project screenshot'}/> {/* Refined alt text */}
                                                 <div className="overlay">
                                                     <div className="work-item-meta">
                                                         <h5>{item.name}</h5>

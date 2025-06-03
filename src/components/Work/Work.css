@@ -60,6 +60,31 @@
     color: #fff;
     padding: 20px 10px;
 }
+
+/* Styling for buttons inside the overlay */
+.work-item .overlay .btn {
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+    /* Ensuring colors from JS buttons are respected or overridden if desired */
+}
+
+.work-item .overlay .btn:hover {
+    transform: scale(1.05) translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    /* Example: Slightly change background color for btn-info on hover */
+    /* You might want to define specific hover colors per button type (btn-info, btn-primary) */
+}
+
+.work-item .overlay .btn.btn-info:hover {
+    background-color: #138496; /* Darker shade of info blue */
+    border-color: #117a8b;
+}
+
+.work-item .overlay .btn.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade of primary blue */
+    border-color: #004085;
+}
+
+
 .bgrid-quarters{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -78,7 +103,12 @@
         width: 100%;
         display:block;
     }
+    #work {
+        padding-top: 40px; /* Reduced top padding */
+        padding-bottom: 30px; /* Reduced bottom padding */
+    }
     #work h1{
         padding: 0 20px;
+        font-size: 22px; /* Reduced font size for h1 */
     }
 }

@@ -85,7 +85,7 @@ const Header = (props) => {
                 <div className="banner">
                     <div className="banner-text">
                         <Zoom>
-                            <h1>I'm {resumeData.name}</h1>
+                            <h1 data-aos="fade-up">I'm {resumeData.name}</h1>
                         </Zoom>
                         <h6 className="text-white" data-aos="zoom-in">
                             I am {""}
@@ -100,14 +100,14 @@ const Header = (props) => {
                                 ]}
                             />
                         </h6>
-                        <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am {resumeData.role}.{resumeData.roleDescription}</h3>
+                        <h3 style={{color:'#fff', fontFamily:'sans-serif '}} data-aos="fade-up" data-aos-delay="200">I am {resumeData.role}.{resumeData.roleDescription}</h3>
                         <hr/>
                         <ul className="social">
                             {
-                                resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                                resumeData.socialLinks && resumeData.socialLinks.map((item, index) =>{
                                     return(
-                                        <li key={item.name}>
-                                            <a href={item.url} target="_blank"><img style={{width:'40px'}} src={item.imgLink} /></a>
+                                        <li key={item.name} data-aos="zoom-in" data-aos-delay={100 * (index + 1) + 300}>
+                                            <a href={item.url} target="_blank" rel="noopener noreferrer"><img style={{width:'40px'}} src={item.imgLink} alt={item.name} /></a>
                                         </li>
                                     )
                                 })
@@ -116,11 +116,12 @@ const Header = (props) => {
                         </ul>
                         
                     </div>
-                    <button className="btn btn-info resumeLink"><a href="https://drive.google.com/file/d/1TBxuiSMHbcnugP2og5u_Sj6RbhMZGWnB/view?usp=sharing" target="_blank">My Resume</a></button>
+                    <button className="btn btn-info resumeLink" data-aos="fade-in" data-aos-delay="500"><a href="https://drive.google.com/file/d/1TBxuiSMHbcnugP2og5u_Sj6RbhMZGWnB/view?usp=sharing" target="_blank">My Resume</a></button>
                     <a
                         href="mailto:nayemulhasan2016@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
+                        data-aos="fade-in" data-aos-delay="600"
                         >
                         <button className="btn btn-primary ml-2">Send Mail</button>
                     </a>
