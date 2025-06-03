@@ -9,13 +9,16 @@
     margin-bottom: 15px;
 }
 #about p{
-    line-height: 30px;
+    line-height: 1.7; /* Using a relative unit for better scalability */
     color: #000;
 }
 #about .profile__pic{
-    width: 250px;
-    height: 250px;
+    max-width: 250px; /* Original fixed width as max-width */
+    width: 100%; /* Allow scaling within container */
+    height: auto; /* Maintain aspect ratio */
     position: relative;
+    margin-left: auto; /* Center if container is wider */
+    margin-right: auto; /* Center if container is wider */
 }
 #about .main-col{
     padding-right: 5%;
@@ -28,12 +31,14 @@
 }
 /* media queries */
 @media only screen and  (max-width: 900px){
-    #about.profile__pic{
-        width: 120px;
-        height: 120px;
-        margin-left: 12px;
+    #about .profile__pic{ /* Corrected typo: #about.profile__pic to #about .profile__pic */
+        /* max-width can be adjusted here if 250px is too large for this breakpoint */
+        /* For now, relying on the base max-width and width: 100% */
+        /* margin-left: 12px; /* This might still be needed depending on layout */
+        /* Let's remove fixed width/height and specific margin-left for now, allowing centering and scaling */
     }
     #about{
+        padding-top: 40px; /* Reduced top padding */
         padding-left: 30px;
         padding-right: 30px;
     }

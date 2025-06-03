@@ -52,6 +52,27 @@ const resumeData = {
         "MonthOfLeaving":"Mar",
         "YearOfLeaving":"2020",
         "Achievements":"Dev. Skills"
+        },
+        {
+        "CompanyName":"Enter Company Name",
+        "specialization":"Enter Your Role",
+        "MonthOfLeaving":"Enter Month Or Present",
+        "YearOfLeaving":"Enter Year Or Present",
+        "Achievements":"Describe your key responsibilities and accomplishments in this role."
+        },
+        {
+        "CompanyName":"Enter Company Name",
+        "specialization":"Enter Your Role",
+        "MonthOfLeaving":"Enter Month Or Present",
+        "YearOfLeaving":"Enter Year Or Present",
+        "Achievements":"Describe your key responsibilities and accomplishments in this role."
+        },
+        {
+        "CompanyName":"Enter Company Name",
+        "specialization":"Enter Your Role",
+        "MonthOfLeaving":"Enter Month Or Present",
+        "YearOfLeaving":"Enter Year Or Present",
+        "Achievements":"Describe your key responsibilities and accomplishments in this role."
         }
     ],
     "skillsDescription":"Top Skills",

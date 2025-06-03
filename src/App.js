@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import resumeData from './resumeData';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Education from './components/Education/Education';
+import Experience from './components/Experience/Experience';
 import Work from './components/Work/Work';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
@@ -19,6 +20,7 @@ function App() {
       <Header resumeData = {resumeData} />
       <About resumeData = {resumeData} />
       <Education resumeData={resumeData} />
+      <Experience resumeData={resumeData} />
       <Work />
       <Contact />
       <Footer/>
